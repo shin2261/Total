@@ -1,0 +1,19 @@
+@baseUrl = http://127.0.0.1:5000
+
+
+### POST Total Develop
+Post {{baseUrl}}/v1.1.0/total
+Content-Type: application/json
+
+{
+    "list": [1, 2, 3]
+}
+
+
+### POST Total Production
+Post {{baseUrl}}/v1.0.0/total
+Content-Type: application/json
+
+{
+    "list": [1, 2, 3]
+}
